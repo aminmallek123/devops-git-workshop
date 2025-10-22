@@ -11,4 +11,4 @@ def div(a, b):
     if b == 0:
         raise ZeroDivisionError("division by zero")
     # BUG VOLONTAIRE: division entière au lieu de flottante
-    return a // b
+    return a / b
